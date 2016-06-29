@@ -42,3 +42,8 @@ import "/imports/plugins/included/product-variant/register";
 import "/imports/plugins/included/shipping/register";
 import "/imports/plugins/included/social/register";
 import "/imports/plugins/included/stripe/register";
+
+/**
+ * Ironman
+ */
+import "/imports/ironman/server";

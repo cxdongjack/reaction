@@ -22,3 +22,8 @@ import "/imports/plugins/included/stripe/client";
  * Themes
  */
 import "/imports/themes/default";
+
+/**
+ * Ironman
+ */
+import "/imports/ironman/client";
