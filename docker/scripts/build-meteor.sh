@@ -15,10 +15,6 @@ cd $APP_SOURCE_DIR
 # Customize packages
 bash $BUILD_SCRIPTS_DIR/build-packages.sh
 
-# update submodule
-git submodule init
-git submodule update
-
 # Install app deps (Meteor 1.3 style)
 npm install --production
 

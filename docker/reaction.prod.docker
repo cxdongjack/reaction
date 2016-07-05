@@ -38,6 +38,7 @@ RUN bash $BUILD_SCRIPTS_DIR/install-deps.sh && \
 		bash $BUILD_SCRIPTS_DIR/install-phantom.sh && \
 		bash $BUILD_SCRIPTS_DIR/install-meteor.sh && \
  		cd $APP_SOURCE_DIR && \
+ 		git clone https://github.com/cxdongjack/ironman.git imports/ironman && \
 		bash $BUILD_SCRIPTS_DIR/build-meteor.sh && \
 		bash $BUILD_SCRIPTS_DIR/post-build-cleanup.sh
 
