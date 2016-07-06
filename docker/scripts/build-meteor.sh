@@ -17,6 +17,7 @@ bash $BUILD_SCRIPTS_DIR/build-packages.sh
 
 # Install app deps (Meteor 1.3 style)
 npm install --production
+cp -R node_modules/font-awesome/fonts ./public/
 
 # build the source
 mkdir -p $APP_BUNDLE_DIR
