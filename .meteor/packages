@@ -91,3 +91,5 @@ practicalmeteor:sinon
 
 
 # Custom Packages
+ironman:rest
+simple:rest-accounts-password
